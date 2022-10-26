@@ -2,19 +2,22 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: blanchedalmond;
+}
 #keret{
     background-color: brown;
     height: 75vh;
-    width: 37.5vw;
+    width: 38.75vw;
     position: absolute;
     top: 12.5vh;
-    left: 6.25vw;
+    left: 28.5%;
 }
 #tabla{
     position: relative;
     background-color: burlywood;
-    height: 64vh;
-    width: 32vw;
+    height: 65.65vh;
+    width: 32.9vw;
     top: 5vh;
     left: 3vw;
 }
@@ -25,12 +28,13 @@
     height: 8vh;
     width: 4vw;
     float: left;
+    border: 1px solid white;
 }
 .sor:nth-child(odd) div:nth-child(odd){
-    background-color: grey;
+    background-color: rgb(165, 81, 42);
 }
 .sor:nth-child(even) div:nth-child(even){
-    background-color: grey;
+    background-color: rgb(165, 81, 42);
 }
 .cella{
     background-size: cover;
