@@ -27,10 +27,10 @@
     float: left;
 }
 .sor:nth-child(odd) div:nth-child(odd){
-    background-color: black;
+    background-color: grey;
 }
 .sor:nth-child(even) div:nth-child(even){
-    background-color: black;
+    background-color: grey;
 }
 .cella{
     background-size: cover;
